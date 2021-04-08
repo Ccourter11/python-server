@@ -1,5 +1,5 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
-from animals import get_all_animals, , get_single_animal
+from animals import get_all_animals, get_single_animal
 
 
 
