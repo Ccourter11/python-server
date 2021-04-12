@@ -1,38 +1,35 @@
-from locations.request import LOCATIONS
-
-
-CUSTOMERS : [
+CUSTOMERS = [
     {
-      "id": 1,
-      "name": "Hannah Hall",
-      "address": "7002 Chestnut Ct"
+        "id": 1,
+        "name": "Hannah Hall",
+        "address": "7002 Chestnut Ct"
     },
     {
-      "id": 2,
-      "name": "Katie Kline",
-      "address": "100 Bellwood Ct"
+        "id": 2,
+        "name": "Katie Kline",
+        "address": "100 Bellwood Ct"
     },
     {
-      "id": 3,
-      "name": "Rachel Jons",
-      "address": "3221 Chesnut Dr"
+        "id": 3,
+        "name": "Rachel Jones",
+        "address": "3221 Chesnut Dr"
     },
     {
-      "id": 4,
-      "name": "Michael Jackson",
-      "address": "222 Never Never Land Dr"
-    },
-    {
-      "id": 5,
-      "name": "Ace Ventura",
-      "address": "Down Yonder 111 Blvd"
-    },
-    {
-      "id": 6,
-      "name": "Jim Jones",
-      "address": "444 Spurs Rd"
+       "id": 4,
+       "name": "Michael Jackson",
+       "address": "222 Never Never Land Dr"
+     },
+     {
+       "id": 5,
+       "name": "Ace Ventura",
+       "address": "Down Yonder 111 Blvd"
+     },
+     {
+       "id": 6,
+       "name": "Jim Jones",
+       "address": "444 Spurs Rd"
     }
-
+    
 ]
 
 def get_all_customers():
