@@ -34,7 +34,7 @@ CREATE TABLE `Employee` (
 );
 
 
-INSERT INTO `Location` VALUES (null, 'Nashville North', "64 Washington Heights");
+SELECT * FROM CustomerINSERT INTO `Location` VALUES (null, 'Nashville North', "64 Washington Heights");
 INSERT INTO `Location` VALUES (null, 'Nashville South', "101 Penn Ave");
 
 
