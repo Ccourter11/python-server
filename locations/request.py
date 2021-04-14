@@ -1,3 +1,9 @@
+import sqlite3
+import json
+
+# Now import the Location class so that you can create instances of it for each row of data that gets returned from the database.
+from models import Location
+
 LOCATIONS = [
     {
       "name": "Nashville North West",
